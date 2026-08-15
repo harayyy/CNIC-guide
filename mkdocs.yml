@@ -51,6 +51,7 @@ extra_css:
 extra_javascript:
   - assets/javascripts/info-card.js
   - assets/javascripts/scroll-top.js
+  - assets/javascripts/topnav-active.js
 
 markdown_extensions:
   - admonition
