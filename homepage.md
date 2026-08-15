@@ -12,7 +12,7 @@
       <a class="isc-btn isc-btn--ghost" href="https://cnic.cas.cn/zxgk/" target="_blank" rel="noopener">中心官网概述</a>
       <a class="isc-btn isc-btn--ghost" href="https://www.cnic.cas.cn/yjsjy/" target="_blank" rel="noopener">官方招生信息</a>
     </div>
-    <p class="isc-hero__qq"><a href="https://qm.qq.com/q/MeJr8xnLsC" target="_blank" rel="noopener">加入中心研招交流群（非官方）</a></p>
+    <p class="isc-hero__qq"><a href="https://qm.qq.com/q/MeJr8xnLsC" target="_blank" rel="noopener">点击加入中心研招交流群（非官方，进群密码346）</a></p>
   </section>
 
   <!-- ---------- 观前提醒 ---------- -->
