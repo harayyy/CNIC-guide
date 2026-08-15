@@ -129,6 +129,18 @@ body {
   gap: 0.8rem;
   flex-wrap: wrap;
 }
+.isc-hero__qq {
+  margin: 0.9rem 0 0;
+  text-align: center;
+  font-size: 0.9rem;
+}
+.isc-hero__qq a {
+  color: #CC0028;
+  text-decoration: underline;
+}
+.isc-hero__qq a:hover {
+  color: #A80022;
+}
 
 /* ---------- 按钮 ---------- */
 .isc-btn {
