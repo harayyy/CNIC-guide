@@ -23,7 +23,6 @@ foreach ($dir in $ContentDirs) {
         Copy-Item -LiteralPath $dir -Destination "docs_src" -Recurse
     }
 }
-Copy-Item -LiteralPath "经验分享投稿模板.md" -Destination "docs_src"
 Copy-Item -LiteralPath "CONTRIBUTORS.md" -Destination "docs_src"
 Copy-Item -LiteralPath "免责声明.md" -Destination "docs_src"
 

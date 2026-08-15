@@ -33,7 +33,7 @@ echo "同步内容到 docs_src/ ..."
 rm -rf docs_src
 mkdir -p docs_src
 cp -r 初试准备 复试准备 上岸经验分享 毕业去向 docs_src/
-cp 经验分享投稿模板.md CONTRIBUTORS.md 免责声明.md docs_src/
+cp CONTRIBUTORS.md 免责声明.md docs_src/
 
 # ---- 网站层匿名化（学校名 → 层次，仅改 docs_src 副本，源文件不动） ----
 "$PY" anonymize.py docs_src

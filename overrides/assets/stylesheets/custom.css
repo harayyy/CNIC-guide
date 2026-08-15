@@ -702,45 +702,6 @@ body {
 .isc-tag--sf4 { background: #2B4248; }
 .isc-tag--mb  { background: #2C3E50; }
 
-/* ---------- 投稿流程 ---------- */
-.isc-steps {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 1rem;
-  margin: 0;
-  padding: 0;
-  list-style: none;
-  counter-reset: step;
-}
-.isc-step {
-  position: relative;
-  padding: 1.4rem 1.4rem 1.2rem;
-  border-radius: 16px;
-  background: var(--isc-card-bg);
-  border: 1px solid var(--isc-border);
-  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.05);
-}
-.isc-step__num {
-  display: inline-flex; align-items: center; justify-content: center;
-  width: 2.2rem; height: 2.2rem;
-  border-radius: 12px;
-  font-size: 0.9rem;
-  font-weight: 800;
-  color: #fff;
-  background: linear-gradient(120deg, var(--isc-grad-btn-a), var(--isc-grad-btn-b));
-}
-.isc-step__title {
-  margin: 0.7rem 0 0.3rem;
-  font-size: 1.02rem;
-  font-weight: 700;
-  color: var(--md-typeset-color);
-}
-.isc-step__body p {
-  margin: 0;
-  font-size: 0.82rem;
-  line-height: 1.7;
-  color: var(--md-default-fg-color--light);
-}
 /* ---------- 标题右侧带按钮的 section 头部 ---------- */
 .isc-section__head--split {
   display: flex;

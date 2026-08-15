@@ -151,32 +151,6 @@
     </div>
   </section>
 
-  <!-- ---------- 投稿流程 ---------- -->
-  <section class="isc-section">
-    <div class="isc-section__head isc-section__head--split">
-      <div class="isc-section__text">
-        <span class="isc-pill">投稿</span>
-        <h2 id="contribute">分享你的备考故事</h2>
-        <p class="isc-section__sub">经验分享持续征集中，一份投稿可能帮到无数后来者</p>
-      </div>
-      <a class="isc-btn isc-btn--soft" href="经验分享投稿模板/">查看投稿模板 →</a>
-    </div>
-    <ol class="isc-steps">
-      <li class="isc-step">
-        <b class="isc-step__num">01</b>
-        <div class="isc-step__body"><div class="isc-step__title">提交 Issue</div><p>在仓库 Issues 页提出修改建议或补充内容，维护者会及时响应</p></div>
-      </li>
-      <li class="isc-step">
-        <b class="isc-step__num">02</b>
-        <div class="isc-step__body"><div class="isc-step__title">提交 Pull Request</div><p>Fork 本仓库，按投稿模板写好内容后提交 PR，审核通过即可收录</p></div>
-      </li>
-      <li class="isc-step">
-        <b class="isc-step__num">03</b>
-        <div class="isc-step__body"><div class="isc-step__title">联系维护者</div><p>不熟悉 GitHub 操作？把内容发给维护者，代为提交与整理</p></div>
-      </li>
-    </ol>
-  </section>
-
   <!-- ---------- 感谢名单 ---------- -->
   <section class="isc-section isc-thanks">
     <div class="isc-section__head">
