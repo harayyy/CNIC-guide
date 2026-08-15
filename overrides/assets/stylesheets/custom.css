@@ -1105,6 +1105,18 @@ body {
   font-weight: 700;
   border-bottom-color: currentColor;
 }
+.isc-labs-link {
+  margin: 0.9rem 0 0;
+  text-align: center;
+  font-size: 0.9rem;
+}
+.isc-labs-link a {
+  color: #CC0028;
+  text-decoration: underline;
+}
+.isc-labs-link a:hover {
+  color: #A80022;
+}
 /* 顶部新增第二行导航后，侧栏与锚点位置随头部高度修正 */
 .md-sidebar {
   top: 6.1rem;
