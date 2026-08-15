@@ -704,6 +704,7 @@ body {
 .isc-tag--sf  { background: #1C2228; }
 .isc-tag--sf4 { background: #2B4248; }
 .isc-tag--mb  { background: #2C3E50; }
+.isc-tag--red { background: #CC0028; }
 
 /* ---------- 标题右侧带按钮的 section 头部 ---------- */
 .isc-section__head--split {
