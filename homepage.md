@@ -124,8 +124,7 @@
       <div class="isc-section__text">
         <span class="isc-pill">毕业去向</span>
         <h2 id="alumni">毕业生去向收集</h2>
-        <p class="isc-section__sub">各方向毕业生去了哪里，整理成一张可核对的去向表。目前为初步占位，欢迎提供线索</p>
-      </div>
+    </div>
       <a class="isc-btn isc-btn--soft" href="毕业去向/毕业去向收集/">查看完整内容</a>
     </div>
     <div class="isc-alumni">
