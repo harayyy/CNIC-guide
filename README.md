@@ -61,7 +61,7 @@ python -m pip install -r requirements.txt
 
 本站内容采用 **CC BY-NC-SA 4.0** 许可协议，可自由分享与转载，但需注明出处且不得用于商业用途。
 
-站点模板与样式改造自《中科院软件所考研报考指南》（<https://github.com/feiyu1104/ISCAS-Application-Guide>，<https://guide.iscas.win/>），按许可要求保留署名。感谢软件所与杭高院指南维护者们的开源分享。
+站点模板与样式改造自《中科院软件所考研报考指南》（<https://github.com/feiyu1104/ISCAS-Application-Guide>，<https://guide.iscas.win/>），其采用 CC BY-NC-SA 4.0 许可，本指南按许可要求保留署名并沿用相同协议。感谢软件所与杭高院指南维护者们的开源分享。
 
 ---
 

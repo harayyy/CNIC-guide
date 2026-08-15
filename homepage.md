@@ -163,7 +163,7 @@
 
   <!-- ---------- 技术栈 ---------- -->
   <div class="isc-tech">
-    本站由 <b>MkDocs</b> + <b>Material for MkDocs</b> 构建 · 内容遵循 <b>CC BY-NC-SA 4.0</b> 许可 · 模板改造自《中科院软件所考研报考指南》
+    本站由 <b>MkDocs</b> + <b>Material for MkDocs</b> 构建 · 内容遵循 <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh-hans" target="_blank" rel="noopener">CC BY-NC-SA 4.0</a> 许可 · 模板改造自 <a href="https://guide.iscas.win/" target="_blank" rel="noopener">《中科院软件所考研报考指南》</a>（<a href="https://github.com/feiyu1104/ISCAS-Application-Guide" target="_blank" rel="noopener">源码</a>）
   </div>
 
   <!-- ---------- 免责声明 ---------- -->
