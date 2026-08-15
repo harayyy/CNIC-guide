@@ -142,6 +142,11 @@
       <p class="isc-section__sub">来自不同背景上岸同学的真实备考故事，本栏目持续征稿中</p>
     </div>
     <div class="isc-exp-grid">
+      <a class="isc-exp-card" href="上岸经验分享/二战中心学硕复仇杭高/">
+        <span class="isc-tag">二战上岸</span>
+        <span class="isc-exp-card__title">二战中心学硕复仇杭高</span>
+        <p>双非二战，总分 347（50/61/121/115），网络中心学硕杭高代招上岸，含杭高代招与复试全攻略</p>
+      </a>
       <a class="isc-exp-card" href="上岸经验分享/">
         <span class="isc-tag isc-tag--sf">征集中</span>
         <span class="isc-exp-card__title">你的上岸故事</span>
