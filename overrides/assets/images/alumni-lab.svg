@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" role="img" aria-label="软所实验室到毕业生去向占位示意图">
+  <rect width="800" height="500" fill="#FCFAF3"/>
+  <text x="48" y="52" font-family="-apple-system,'Segoe UI','Microsoft YaHei',sans-serif" font-size="15" font-weight="700" letter-spacing="3" fill="#F05A3A">LAB TO FUTURE</text>
+  <text x="48" y="84" font-family="-apple-system,'Segoe UI','Microsoft YaHei',sans-serif" font-size="26" font-weight="600" fill="#0B2632">实验室到去向 · 占位示意</text>
+  <g stroke="#DDD8CD" stroke-width="1">
+    <line x1="48" y1="180" x2="752" y2="180"/>
+    <line x1="48" y1="300" x2="752" y2="300"/>
+    <line x1="48" y1="420" x2="752" y2="420"/>
+  </g>
+  <g font-family="-apple-system,'Segoe UI','Microsoft YaHei',sans-serif" font-size="15" fill="#0B2632">
+    <rect x="48" y="120" width="220" height="44" fill="#E9E3D4"/>
+    <text x="66" y="147">自然语言处理实验室</text>
+    <rect x="48" y="176" width="220" height="44" fill="#E9E3D4"/>
+    <text x="66" y="203">中文信息处理实验室</text>
+    <rect x="48" y="232" width="220" height="44" fill="#E9E3D4"/>
+    <text x="66" y="259">可信计算与基础软件</text>
+    <rect x="48" y="288" width="220" height="44" fill="#E9E3D4"/>
+    <text x="66" y="315">并行软件与计算系统</text>
+    <rect x="48" y="344" width="220" height="44" fill="#E9E3D4"/>
+    <text x="66" y="371">其他实验室（待补充）</text>
+  </g>
+  <g stroke="#0B2632" stroke-width="2" fill="none">
+    <path d="M268 142 L430 142"/>
+    <path d="M268 198 L430 198"/>
+    <path d="M268 254 L430 254"/>
+    <path d="M268 310 L430 310"/>
+    <path d="M268 366 L430 366"/>
+  </g>
+  <g>
+    <rect x="430" y="112" width="322" height="140" fill="#FCFAF3" stroke="#C9C3B5" stroke-width="1"/>
+    <text x="450" y="152" font-family="-apple-system,'Segoe UI','Microsoft YaHei',sans-serif" font-size="17" font-weight="600" fill="#0B2632">深造</text>
+    <text x="450" y="182" font-family="-apple-system,'Segoe UI','Microsoft YaHei',sans-serif" font-size="13" fill="#6D7878">国科大 / 海外高校读博、博后</text>
+    <rect x="450" y="196" width="150" height="6" fill="#F05A3A"/>
+    <text x="450" y="228" font-family="-apple-system,'Segoe UI','Microsoft YaHei',sans-serif" font-size="13" fill="#6D7878">比例待补充</text>
+    <rect x="430" y="276" width="322" height="140" fill="#FCFAF3" stroke="#C9C3B5" stroke-width="1"/>
+    <text x="450" y="316" font-family="-apple-system,'Segoe UI','Microsoft YaHei',sans-serif" font-size="17" font-weight="600" fill="#0B2632">就业</text>
+    <text x="450" y="346" font-family="-apple-system,'Segoe UI','Microsoft YaHei',sans-serif" font-size="13" fill="#6D7878">互联网大厂 / 科研院所 / 选调等</text>
+    <rect x="450" y="360" width="180" height="6" fill="#0B2632"/>
+    <text x="450" y="392" font-family="-apple-system,'Segoe UI','Microsoft YaHei',sans-serif" font-size="13" fill="#6D7878">比例待补充</text>
+  </g>
+  <text x="48" y="476" font-family="-apple-system,'Segoe UI','Microsoft YaHei',sans-serif" font-size="13" fill="#6D7878">注：实验室名单为示例占位，图为示意，数据整理中。</text>
+</svg>

@@ -1,0 +1,15 @@
+# Python 虚拟环境
+.venv/
+
+# 静态网站构建产物（由构建脚本生成）
+site/
+docs_src/
+
+# Python 缓存
+__pycache__/
+
+# Codex 仓库指引
+AGENTS.md
+
+# Cloudflare Worker 计数器（本地维护，部署时手动粘贴到 Cloudflare，不随仓库分发）
+worker/

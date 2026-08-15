@@ -1,0 +1,85 @@
+# 中国科学院计算机网络信息中心（CNIC）考研报考指南 - 静态网站配置
+#
+# 说明：MkDocs 要求内容位于配置文件子目录，因此通过构建脚本将仓库
+# 内容同步到 docs_src/（临时构建源，不入库），再交给 MkDocs 构建。
+# 仓库里的 markdown 仍是唯一内容源。
+#
+# 构建:   .\build-site.ps1（Windows）或 bash build-site.sh（Linux / Cloudflare Pages）
+# 部署:   GitHub Pages 用 .\deploy.ps1；Cloudflare Pages 在控制台配置构建命令
+
+site_name: 中国科学院计算机网络信息中心（CNIC）考研报考指南
+site_description: 中国科学院计算机网络信息中心考研报考指南、复试攻略与上岸经验分享
+# 部署地址：Cloudflare Pages 或 GitHub Pages 的默认域名，发布后按实际修改
+site_url: https://cnic-guide.pages.dev/
+copyright: 公益维护，非盈利，与网络中心无关联 · 内容仅供参考，以官方为准 · <a href="https://cnic-guide.pages.dev/免责声明/">免责声明</a> · CC BY-NC-SA 4.0
+
+docs_dir: docs_src
+site_dir: site
+
+theme:
+  name: material
+  language: zh
+  # 禁用 Google Fonts 远程字体，改用系统字体（国内访问更快更稳）
+  font: false
+  # 自定义 favicon（渐变「网」字图标）
+  favicon: assets/images/favicon.svg
+  # 自定义模板目录（首页精装落地页 + 全局样式）
+  custom_dir: overrides
+  icon:
+    logo: material/arrow-up
+  features:
+    - navigation.instant
+    - navigation.tracking
+    - navigation.footer
+    - search.suggest
+    - search.highlight
+    - content.code.copy
+  palette:
+    # 仅保留白天红白模式（不提供深浅切换）
+    scheme: default
+    primary: "#CC0028"
+    accent: "#A30020"
+
+plugins:
+  - search:
+      lang:
+        - zh
+        - en
+
+hooks:
+  - hooks/homepage_toc.py
+
+# 全局自定义样式与脚本（文件放在 overrides/ 下，构建时复制到 site 根）
+extra_css:
+  - assets/stylesheets/custom.css
+extra_javascript:
+  - assets/javascripts/info-card.js
+  - assets/javascripts/scroll-top.js
+
+markdown_extensions:
+  - admonition
+  - attr_list
+  - md_in_html
+  - toc:
+      permalink: true
+      # 保留中文标题作为锚点（否则纯中文标题会被退化为 _1、_2 等数字 id）
+      slugify: !!python/name:pymdownx.slugs.uslugify
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+
+nav:
+  - 首页: index.md
+  - 初试准备:
+      - 初试报考指南: 初试准备/初试报考指南.md
+  - 复试准备:
+      - 复试考核指南: 复试准备/复试考核指南.md
+  - 毕业去向收集:
+      - 毕业去向收集: 毕业去向/毕业去向收集.md
+      - 实验室去向收集: 毕业去向/实验室去向收集.md
+  - 上岸经验分享: 上岸经验分享/index.md
+  - 投稿模板: 经验分享投稿模板.md
+  - 贡献者名单: CONTRIBUTORS.md
+  - 免责声明: 免责声明.md
