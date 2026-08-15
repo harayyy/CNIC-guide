@@ -1141,7 +1141,7 @@ body {
   .isc-alumni { grid-template-columns: 1fr; }
 }
 .isc-alumni-chart {
-  max-width: 920px;
+  max-width: 1040px;
   margin: 0 auto 1.6rem;
 }
 .isc-alumni-chart img {
