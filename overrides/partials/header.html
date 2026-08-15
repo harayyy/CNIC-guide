@@ -1,0 +1,58 @@
+{#-
+  基于 Material for MkDocs 原版 header 模板，顶部新增第二行快捷导航（搜索栏已移除）
+-#}
+{% set class = "md-header" %}
+{% if "navigation.tabs.sticky" in features %}
+  {% set class = class ~ " md-header--shadow md-header--lifted" %}
+{% elif "navigation.tabs" not in features %}
+  {% set class = class ~ " md-header--shadow" %}
+{% endif %}
+<header class="{{ class }}" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="{{ lang.t('header') }}">
+    <a href="{{ config.extra.homepage | d(nav.homepage.url, true) | url }}" title="{{ config.site_name | e }}" class="md-header__button md-logo" aria-label="{{ config.site_name }}" data-md-component="logo">
+      {% include "partials/logo.html" %}
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      {% set icon = config.theme.icon.menu or "material/menu" %}
+      {% include ".icons/" ~ icon ~ ".svg" %}
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            {{ config.site_name }}
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            {% if page.meta and page.meta.title %}
+              {{ page.meta.title }}
+            {% else %}
+              {{ page.title }}
+            {% endif %}
+          </span>
+        </div>
+      </div>
+    </div>
+    {% if config.repo_url %}
+      <div class="md-header__source">
+        {% include "partials/source.html" %}
+      </div>
+    {% endif %}
+  </nav>
+  <nav class="isc-topnav md-grid" aria-label="快捷导航">
+    <a href="{{ nav.homepage.url | url }}"{% if page is defined and page.is_homepage %} class="active"{% endif %}>首页</a>
+    <a href="{{ base_url }}/初试准备/初试报考指南/"{% if page is defined and page.url == "初试准备/初试报考指南/" %} class="active"{% endif %}>初试准备</a>
+    <a href="{{ base_url }}/复试准备/复试考核指南/"{% if page is defined and page.url == "复试准备/复试考核指南/" %} class="active"{% endif %}>复试准备</a>
+    <a href="{{ base_url }}/毕业去向/毕业去向收集/"{% if page is defined and page.url == "毕业去向/毕业去向收集/" %} class="active"{% endif %}>毕业去向收集</a>
+    <a href="{{ base_url }}/上岸经验分享/"{% if page is defined and page.url == "上岸经验分享/" %} class="active"{% endif %}>上岸经验分享</a>
+    <a href="{{ base_url }}/经验分享投稿模板/"{% if page is defined and page.url == "经验分享投稿模板/" %} class="active"{% endif %}>投稿模板</a>
+    <a href="{{ base_url }}/CONTRIBUTORS/"{% if page is defined and page.url == "CONTRIBUTORS/" %} class="active"{% endif %}>贡献者名单</a>
+    <a href="{{ base_url }}/免责声明/"{% if page is defined and page.url == "免责声明/" %} class="active"{% endif %}>免责声明</a>
+  </nav>
+  {% if "navigation.tabs.sticky" in features %}
+    {% if "navigation.tabs" in features %}
+      {% include "partials/tabs.html" %}
+    {% endif %}
+  {% endif %}
+</header>

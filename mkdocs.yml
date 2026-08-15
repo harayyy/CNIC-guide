@@ -40,11 +40,7 @@ theme:
     primary: "#CC0028"
     accent: "#A30020"
 
-plugins:
-  - search:
-      lang:
-        - zh
-        - en
+plugins: []
 
 hooks:
   - hooks/homepage_toc.py

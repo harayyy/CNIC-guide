@@ -1109,6 +1109,42 @@ body {
 }
 
 /* ---------- 毕业去向收集入口 ---------- */
+.isc-topnav {
+  display: flex;
+  align-items: center;
+  gap: 1.4rem;
+  padding: 0.1rem 1.4rem 0.7rem;
+  overflow-x: auto;
+  white-space: nowrap;
+  scrollbar-width: none;
+}
+.isc-topnav::-webkit-scrollbar { display: none; }
+.isc-topnav a {
+  color: inherit;
+  font-size: 0.85rem;
+  opacity: 0.85;
+  text-decoration: none;
+  padding: 0.15rem 0 0.3rem;
+  border-bottom: 2px solid transparent;
+  transition: opacity 0.2s, border-color 0.2s;
+}
+.isc-topnav a:hover { opacity: 1; }
+.isc-topnav a.active {
+  opacity: 1;
+  font-weight: 700;
+  border-bottom-color: currentColor;
+}
+/* 顶部新增第二行导航后，侧栏与锚点位置随头部高度修正 */
+.md-sidebar {
+  top: 6.1rem;
+}
+.md-header--lifted~.md-container .md-sidebar {
+  top: 6.1rem;
+}
+.md-typeset :target,
+.md-header--lifted~.md-container .md-typeset :target {
+  --md-scroll-margin: 6.4rem;
+}
 .isc-alumni {
   display: grid;
   align-items: stretch;
