@@ -179,10 +179,7 @@
       <p class="isc-section__sub">中科院体系内兄弟研究所的报考指南站，供择校对比参考</p>
     </div>
     <div class="isc-links">
-      <a class="isc-btn isc-btn--soft" href="https://guide.iscas.win/" title="guide.iscas.win" target="_blank" rel="noopener">中科院软件所报考指南 ↗</a>
-      <a class="isc-btn isc-btn--soft" href="https://hias-guide.pages.dev/" title="hias-guide.pages.dev" target="_blank" rel="noopener">国科大杭高院报考指南 ↗</a>
-      <a class="isc-btn isc-btn--soft" href="https://iie.cskaoyan.cn" title="iie.cskaoyan.cn" target="_blank" rel="noopener">中科院信工所报考指南 ↗</a>
-      <a class="isc-btn isc-btn--soft" href="https://sict.cskaoyan.cn" title="sict.cskaoyan.cn" target="_blank" rel="noopener">中科院沈计所报考指南 ↗</a>
+      <a class="isc-btn isc-btn--soft" href="https://cskaoyan.cn/" title="cskaoyan.cn" target="_blank" rel="noopener">国科大计算机考研报考指南汇总 ↗</a>
     </div>
   </section>
 
