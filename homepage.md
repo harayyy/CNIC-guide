@@ -50,7 +50,7 @@
       <span class="isc-chip" data-tip="介绍征集中，欢迎投稿补充">信息化前瞻技术研究开放实验室</span>
       <span class="isc-chip" data-tip="介绍征集中，欢迎投稿补充">科技云运行与技术发展部</span>
       <span class="isc-chip" data-tip="介绍征集中，欢迎投稿补充">大数据技术与应用发展部</span>
-      <span class="isc-chip" data-tip="部门整体工资高">人工智能技术与应用发展部</span>
+      <span class="isc-chip" data-tip="介绍征集中，欢迎投稿补充">人工智能技术与应用发展部</span>
       <span class="isc-chip" data-tip="介绍征集中，欢迎投稿补充">区域创新先进信息技术实验室</span>
       <span class="isc-chip" data-tip="介绍征集中，欢迎投稿补充">先进交互式技术与应用发展部</span>
       <span class="isc-chip" data-tip="介绍征集中，欢迎投稿补充">先进网络技术与应用发展部</span>
