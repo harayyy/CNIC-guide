@@ -223,6 +223,9 @@ body {
   font-size: 0.76rem;
   color: var(--md-default-fg-color--light);
 }
+.isc-stats--kq .isc-stat span {
+  font-weight: 700;
+}
 
 /* ============ Section 通用 ============ */
 .isc-section {

@@ -26,7 +26,7 @@
     <div class="isc-section__head">
       <span class="isc-pill">26考情速览</span>
     </div>
-  <div class="isc-stats" aria-label="26 考情关键数据">
+  <div class="isc-stats isc-stats--kq" aria-label="26 考情关键数据">
     <div class="isc-stat"><b>A+</b><span>国科大计算机学科评估</span></div>
     <div class="isc-stat"><b>290/346</b><span>26 学硕/专硕复试线</span></div>
     <div class="isc-stat"><b>288/237</b><span>26 士兵/少干计划复试线</span></div>
