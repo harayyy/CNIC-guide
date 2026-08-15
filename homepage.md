@@ -147,6 +147,11 @@
         <span class="isc-exp-card__title">二战中心学硕复仇杭高</span>
         <p>双非二战，总分 347（50/61/121/115），网络中心学硕杭高代招上岸，含杭高代招与复试全攻略</p>
       </a>
+      <a class="isc-exp-card" href="上岸经验分享/初试382分上岸计算机网络信息中心/">
+        <span class="isc-tag isc-tag--red">双非</span>
+        <span class="isc-exp-card__title">初试382分上岸计算机网络信息中心</span>
+        <p>华东交大计算机，绩点 3.30、初试 382、复试 88.2 上岸；可免费择校答疑，附交流群号</p>
+      </a>
       <a class="isc-exp-card" href="上岸经验分享/">
         <span class="isc-tag isc-tag--red">征集中</span>
         <span class="isc-exp-card__title">你的上岸故事</span>
