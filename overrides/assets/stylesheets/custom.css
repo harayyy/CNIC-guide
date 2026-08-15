@@ -193,7 +193,7 @@ body {
 /* ============ 数据统计条 ============ */
 .isc-stats {
   display: grid;
-  grid-template-columns: repeat(6, 1fr);
+  grid-template-columns: repeat(4, 1fr);
   gap: 0.8rem;
   margin: 1.6rem 0 0;
 }
@@ -727,6 +727,12 @@ body {
 }
 .isc-thanks .isc-section__head { text-align: center; }
 .isc-thanks .isc-section__sub { margin-left: auto; margin-right: auto; }
+.isc-thanks__names {
+  margin: 0.2rem 0 1rem;
+  font-size: 1.02rem;
+  font-weight: 700;
+  color: var(--md-typeset-color);
+}
 .isc-avatars {
   display: flex;
   justify-content: center;

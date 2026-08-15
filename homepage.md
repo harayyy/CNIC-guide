@@ -31,7 +31,6 @@
     <div class="isc-stat"><b>290/346</b><span>26 学硕/专硕复试线</span></div>
     <div class="isc-stat"><b>288/237</b><span>26 士兵/少干计划复试线</span></div>
     <div class="isc-stat"><b>26共录取95人</b><span>50推免 14学 33专（含9名计划）</span></div>
-    <div class="isc-stat"><b>免学费</b><span>补助含返还学费</span></div>
   </div>
   </section>
 
@@ -158,6 +157,7 @@
       <h2 id="thanks">感谢每一位分享者</h2>
       <p class="isc-section__sub">本指南的诞生离不开以下同学的热心分享与贡献</p>
     </div>
+    <p class="isc-thanks__names">@Suihara @DD.dd</p>
     <p class="isc-thanks__note">贡献者名单持续更新中——<br>一个人的经验是有限的，一群人的智慧是无限的。</p>
   </section>
 
