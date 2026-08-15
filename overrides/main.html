@@ -16,7 +16,9 @@
 {% endblock %}
 
 {% block site_nav %}
-  {{ super() }}
+  {% if not page.is_homepage %}
+    {{ super() }}
+  {% endif %}
 {% endblock %}
 
 {% block content %}
