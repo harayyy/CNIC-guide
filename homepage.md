@@ -129,6 +129,10 @@
     <div class="isc-alumni-chart">
       <img src="assets/images/tuimian-source.svg" alt="2020-2026年推免生源985/211占比柱状图" loading="lazy">
     </div>
+    <div class="isc-alumni-text">
+      <h3>大厂就业高认可度</h3>
+      <p>据网上信息搜集，部分去向包含科大讯飞、小红书、滴滴、阿里、腾讯、银行、读博等。大厂以及吃学历的投行政策银行都能过学校关。</p>
+    </div>
   </section>
 
   <!-- ---------- 经验分享 ---------- -->

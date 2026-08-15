@@ -1149,6 +1149,22 @@ body {
   width: 100%;
   height: auto;
 }
+.isc-alumni-text {
+  max-width: 1040px;
+  margin: 0 0 1.6rem;
+}
+.isc-alumni-text h3 {
+  margin: 0 0 0.4rem;
+  font-size: 1.05rem;
+  font-weight: 700;
+  color: var(--md-typeset-color);
+}
+.isc-alumni-text p {
+  margin: 0;
+  line-height: 1.7;
+  color: var(--md-typeset-color);
+  opacity: 0.92;
+}
 
 /* ============ 首页观前提醒条 ============ */
 .isc-notice {
