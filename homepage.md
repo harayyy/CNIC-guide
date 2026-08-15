@@ -82,14 +82,14 @@
   <section class="isc-section">
     <div class="isc-section__head">
       <span class="isc-pill">核心指南</span>
-      <h2 id="guide">报考全流程，一篇讲清</h2>
+      <h2 id="guide">初试与复试核心数据分析</h2>
       <p class="isc-section__sub">从初试备考到复试上岸的完整攻略，点击进入对应内容</p>
     </div>
     <div class="isc-entry">
       <a class="isc-entry-card" href="初试准备/初试报考指南/">
         <span class="isc-entry-card__icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"/><path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"/></svg></span>
         <span class="isc-entry-card__title">初试报考指南</span>
-        <p>招生专业 · 初试科目 · 名额 · 学费待遇 · 时间线 · 报考建议</p>
+        <p>招生专业 · 招生名额 · 初试分数 · 复录比</p>
         <span class="isc-entry-card__more">阅读指南 →</span>
       </a>
       <a class="isc-entry-card" href="复试准备/复试考核指南/">
