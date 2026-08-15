@@ -1140,6 +1140,15 @@ body {
 @media (max-width: 600px) {
   .isc-alumni { grid-template-columns: 1fr; }
 }
+.isc-alumni-chart {
+  max-width: 920px;
+  margin: 0 auto 1.6rem;
+}
+.isc-alumni-chart img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
 
 /* ============ 首页观前提醒条 ============ */
 .isc-notice {

@@ -126,6 +126,9 @@
     </div>
       <a class="isc-btn isc-btn--soft" href="毕业去向/毕业去向收集/">查看完整内容</a>
     </div>
+    <div class="isc-alumni-chart">
+      <img src="assets/images/tuimian-source.svg" alt="2020-2026年推免生源985/211占比柱状图" loading="lazy">
+    </div>
     <div class="isc-alumni">
       <a class="isc-alumni-card" href="毕业去向/毕业去向收集/">
         <img src="assets/images/alumni-overview.svg" alt="毕业生去向总览占位图" loading="lazy">
