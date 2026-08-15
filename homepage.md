@@ -129,16 +129,6 @@
     <div class="isc-alumni-chart">
       <img src="assets/images/tuimian-source.svg" alt="2020-2026年推免生源985/211占比柱状图" loading="lazy">
     </div>
-    <div class="isc-alumni">
-      <a class="isc-alumni-card" href="毕业去向/毕业去向收集/">
-        <img src="assets/images/alumni-overview.svg" alt="毕业生去向总览占位图" loading="lazy">
-        <span class="isc-alumni-card__title">去向总览</span>
-      </a>
-      <a class="isc-alumni-card" href="毕业去向/实验室去向收集/">
-        <img src="assets/images/alumni-lab.svg" alt="实验室到去向占位图" loading="lazy">
-        <span class="isc-alumni-card__title">实验室去向</span>
-      </a>
-    </div>
   </section>
 
   <!-- ---------- 经验分享 ---------- -->
