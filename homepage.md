@@ -58,7 +58,7 @@
       <span class="isc-chip" data-tip="介绍征集中，欢迎投稿补充">管理信息化技术与应用发展部</span>
       <span class="isc-chip" data-tip="介绍征集中，欢迎投稿补充">网络空间安全技术与应用发展部等</span>
     </div>
-    <p class="isc-labs-link"><a href="https://xhslink.cn/o/6xL3iCEh9bL" target="_blank" rel="noopener">点此查看DD学长分享的实验室部门介绍</a></p>
+    <p class="isc-labs-link"><a href="https://xhslink.cn/o/6xL3iCEh9bL" target="_blank" rel="noopener">点此查看DD学长分享的实验室部门介绍</a><small class="isc-labs-note">信息具有一定时效性，仅作参考</small></p>
   </section>
 
   <!-- ---------- 性价比亮点 ---------- -->

@@ -1117,6 +1117,13 @@ body {
 .isc-labs-link a:hover {
   color: #A80022;
 }
+.isc-labs-link .isc-labs-note {
+  display: block;
+  margin-top: 0.2rem;
+  font-size: 0.78rem;
+  color: #8a8a8a;
+  font-weight: 400;
+}
 /* 顶部新增第二行导航后，侧栏与锚点位置随头部高度修正 */
 .md-sidebar {
   top: 6.1rem;
