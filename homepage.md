@@ -129,6 +129,7 @@
     <div class="isc-alumni-chart">
       <img src="assets/images/tuimian-source.svg" alt="2020-2026年推免生源985/211占比柱状图" loading="lazy">
     </div>
+    <p class="isc-alumni-note">近7年推免生源985/211生源占比约为89.4%，生源优质且保研名额近些年逐步扩大，认可度更高。</p>
     <div class="isc-alumni-text">
       <h3>大厂就业高认可度</h3>
       <p>据身边学长去向统计，部分去向包含科大讯飞、小红书、滴滴、阿里、腾讯、银行、读博等。大厂以及吃学历的投行政策银行都能过学校关。具体去向待补充。</p>
