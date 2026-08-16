@@ -11,6 +11,9 @@ site_name: 中国科学院计算机网络信息中心（CNIC）考研报考指�
 site_description: 中国科学院计算机网络信息中心考研报考指南、复试攻略与上岸经验分享
 # 部署地址：Cloudflare Pages 或 GitHub Pages 的默认域名，发布后按实际修改
 site_url: https://cnic-guide.pages.dev/
+# 右上角 GitHub 入口
+repo_url: https://github.com/harayyy/CNIC-guide
+repo_name: GitHub
 copyright: 公益维护，非盈利，与网络中心无关联 · 内容仅供参考，以官方为准 · <a href="https://cnic-guide.pages.dev/免责声明/">免责声明</a> · CC BY-NC-SA 4.0
 
 docs_dir: docs_src
