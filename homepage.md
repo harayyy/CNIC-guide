@@ -154,6 +154,11 @@
         <span class="isc-exp-card__title">初试382分上岸计算机网络信息中心</span>
         <p>华东交大计算机，绩点 3.30、初试 382、复试 88.2 上岸；可免费择校答疑，附交流群号</p>
       </a>
+      <a class="isc-exp-card" href="上岸经验分享/双非倒数逆袭上岸计算机网络信息中心/">
+        <span class="isc-tag isc-tag--red">双非</span>
+        <span class="isc-exp-card__title">双非倒数逆袭上岸计算机网络信息中心</span>
+        <p>双非本科绩点 2.7、排名倒数，无奖学金无论文；政治英语数学 408 完整备考攻略与联系导师建议</p>
+      </a>
       <a class="isc-exp-card" href="上岸经验分享/">
         <span class="isc-tag isc-tag--red">征集中</span>
         <span class="isc-exp-card__title">你的上岸故事</span>
